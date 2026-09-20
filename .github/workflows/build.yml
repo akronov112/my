@@ -18,7 +18,7 @@ jobs:
 
       - name: Compile C++ to EXE
         # Если у вас один файл main.cpp:
-        run: cl /EHsc /O2 /std:c++17 /Fe:my_app.exe main.cpp
+        run: cl /EHsc /O2 /std:c++17 /Fe:my_app.exe wow.c++
         # Если файлов несколько, перечислите их:
         # run: cl /EHsc /O2 /std:c++17 /Fe:my_app.exe main.cpp utils.cpp other.cpp
 
